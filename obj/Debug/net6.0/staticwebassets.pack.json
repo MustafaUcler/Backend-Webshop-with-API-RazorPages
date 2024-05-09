@@ -1,0 +1,149 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\16.jpg",
+      "PackagePath": "staticwebassets\\images\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\17.jpg",
+      "PackagePath": "staticwebassets\\images\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\18.jpg",
+      "PackagePath": "staticwebassets\\images\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\19.jpg",
+      "PackagePath": "staticwebassets\\images\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\20.jpg",
+      "PackagePath": "staticwebassets\\images\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\21.jpg",
+      "PackagePath": "staticwebassets\\images\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\22.jpg",
+      "PackagePath": "staticwebassets\\images\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\23.jpg",
+      "PackagePath": "staticwebassets\\images\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\24.jpg",
+      "PackagePath": "staticwebassets\\images\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\25.jpg",
+      "PackagePath": "staticwebassets\\images\\25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\26.jpg",
+      "PackagePath": "staticwebassets\\images\\26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\27.jpg",
+      "PackagePath": "staticwebassets\\images\\27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\28.jpg",
+      "PackagePath": "staticwebassets\\images\\28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\29.jpg",
+      "PackagePath": "staticwebassets\\images\\29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\30.jpg",
+      "PackagePath": "staticwebassets\\images\\30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\46735\\Downloads\\Back1_9\\Back1_9\\Back1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BackendApp1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BackendApp1.props",
+      "PackagePath": "build\\BackendApp1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BackendApp1.props",
+      "PackagePath": "buildMultiTargeting\\BackendApp1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BackendApp1.props",
+      "PackagePath": "buildTransitive\\BackendApp1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

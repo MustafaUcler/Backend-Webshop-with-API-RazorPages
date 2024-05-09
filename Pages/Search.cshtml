@@ -1,0 +1,53 @@
+﻿@page
+@model BackendApp1.Pages.SearchModel
+
+<h1>Sök</h1>
+
+<div class="button-container">
+    <a class="button" asp-page="./Index">Startsidan</a>
+    <a class="button" asp-page="./ShoppingCart">Kundvagn</a>
+    <form method="get">
+        <input type="text" name="searchString" placeholder="Sök efter produkt...">
+        <select name="category">
+            <option value="">Alla kategorier</option>
+            <option value="Leksak1">Leksaker 1</option>
+            <option value="Leksak2">Leksaker 2</option>
+            <option value="Leksak2">Leksaker 3</option>
+        </select>
+        <button type="submit" class="button">Sök</button>
+    </form>
+</div>
+
+<div class="product-container">
+    @foreach (var product in Model.Products)
+    {
+        <div class="product">
+            <h2>@product.Name</h2>
+            <a href="/ProductDetails?id=@product.ProductId">
+                <img src="@product.ImageUrl" alt="@product.Name" />
+            </a>
+            <p>Pris: @product.Price KR</p>
+        </div>
+    }
+</div>
+
+@if (Model.HasPreviousPage || Model.HasNextPage)
+{
+    <div class="pagination-container">
+        @if (Model.HasPreviousPage)
+        {
+            <a class="navigation-button" asp-page="./Search"
+               asp-route-searchString="@Model.SearchString"
+               asp-route-category="@Model.Category"
+               asp-route-pageIndex="@(Model.PageIndex - 1)">Föregående</a>
+        }
+        @if (Model.HasNextPage)
+        {
+            <a class="navigation-button" asp-page="./Search"
+               asp-route-searchString="@Model.SearchString"
+               asp-route-category="@Model.Category"
+               asp-route-pageIndex="@(Model.PageIndex + 1)">Nästa</a>
+        }
+    </div>
+}
+

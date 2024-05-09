@@ -1,0 +1,55 @@
+﻿@page
+@model BackendApp1.Pages.ShoppingCartModel
+@{
+    ViewData["Title"] = "Varukorg";
+}
+
+<h1>Varukorg</h1>
+
+<div class="button-container">
+    <a class="button" asp-page="./Search">Sök</a>
+    <a class="button" asp-page="./Index">Fortsätt handla</a>
+</div>
+
+@if (Model.Products != null && Model.Products.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Bild</th>
+                <th>Namn</th>
+                <th>Pris</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td><img src="@product.ImageUrl" alt="@product.Name" /></td>
+                    <td>@product.Name</td>
+                    <td>@product.Price KR</td>
+                    <td>
+                        <form method="post" asp-page-handler="RemoveFromCart" asp-route-productId="@product.ProductId">
+                            <button type="submit" class="button">Ta bort</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <p>Totalpris: @Model.TotalPrice KR</p>
+
+    <form method="post" asp-page-handler="ClearCart">
+        <button type="submit" class="button">Rensa varukorg</button>
+    </form>
+
+    <form method="post" asp-page-handler="Checkout">
+        <button type="submit" class="button">Genomför köp</button>
+    </form>
+}
+else
+{
+    <p>Din varukorg är tom.</p>
+}

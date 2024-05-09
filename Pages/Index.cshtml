@@ -1,0 +1,57 @@
+﻿@page
+@model IndexModel
+@inject BackendApp1.Data.AccessControl accessControl
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <h1>Welcome, @accessControl.LoggedInAccountName!</h1>
+
+    <div class="button-container">
+        <a class="button" asp-page="./Search">Sök</a>
+        <a class="button" asp-page="./ShoppingCart">Kundvagn</a>
+    </div>
+
+
+    <div class="product-container">
+        @foreach (var product in Model.Products)
+        {
+            <div class="product">
+                <h2>@product.Name</h2>
+                <a asp-page="./ProductDetails" asp-route-id="@product.ProductId">
+                    <img src="@product.ImageUrl" alt="@product.Name" />
+                </a>
+                <p>Pris: @product.Price Kr</p>
+                <p>Kategori: @product.Category</p>
+                <p>Beskrivning: @product.Description</p>
+
+                <form method="post" asp-page-handler="AddToCart" asp-route-productId="@product.ProductId">
+                    <button type="submit" class="navigation-button">Köp</button>
+                </form>
+            </div>
+        }
+    </div>
+
+
+    <div class="navigation-container">
+        @if (Model.HasPreviousPage)
+        {
+            <a class="navigation-button" asp-page="./Index" asp-route-pageIndex="@(Model.PageIndex - 1)">Föregående</a>
+        }
+        @if (Model.HasNextPage)
+        {
+            <a class="navigation-button" asp-page="./Index" asp-route-pageIndex="@(Model.PageIndex + 1)">Nästa</a>
+        }
+    </div>
+
+</body>
+</html>

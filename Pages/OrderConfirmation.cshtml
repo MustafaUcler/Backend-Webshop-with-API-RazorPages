@@ -1,0 +1,16 @@
+﻿@page
+@model BackendApp1.Pages.OrderConfirmationModel
+@{
+    ViewData["Title"] = "Orderbekräftelse";
+}
+
+<h1>Orderbekräftelse</h1>
+
+<div>
+    <p>Tack för ditt köp.</p>
+    <p>Totalsumma för beställningen: @Model.TotalPrice Kr</p>
+</div>
+
+<a asp-page="/Index" class ="button">Tillbaka till startsidan</a>
+
+
